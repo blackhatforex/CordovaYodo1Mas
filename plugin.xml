@@ -32,7 +32,7 @@
     <config-file target="AndroidManifest.xml" parent="/manifest/application" >
       <meta-data
               android:name="com.google.android.gms.ads.APPLICATION_ID"
-              android:value="PUT ADMOB ID HERE"/>
+              android:value="ca-app-pub-5580537606944457~7444284909"/>
     </config-file>
 
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -89,7 +89,7 @@
     </config-file>
 
     <config-file target="*-Info.plist" parent="GADApplicationIdentifier">
-      <string>PUT ADMOB ID HERE</string>
+      <string>ca-app-pub-5580537606944457~7444284909</string>
     </config-file>
 
     <config-file target="*-Info.plist" parent="AppLovinSdkKey">
